@@ -15,6 +15,8 @@ iris <- iris
 boring_plot <- iris %>% ggplot(aes(x=Sepal.Length, y=Petal.Length)) + geom_point()
 ggsave("boring_plot.png", boring_plot)
 boring_lm <- lm(Petal.Length ~ Petal.Width + Sepal.Length + Sepal.Width, iris)
+
+#### blabkla
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
